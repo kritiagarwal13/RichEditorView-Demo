@@ -1,16 +1,22 @@
 PODS:
-  - RichEditorView (5.0.0)
+  - RichEditorView (4.0)
 
 DEPENDENCIES:
-  - RichEditorView
+  - RichEditorView (from `https://github.com/cbess/RichEditorView.git`, tag `4.0`)
 
-SPEC REPOS:
-  trunk:
-    - RichEditorView
+EXTERNAL SOURCES:
+  RichEditorView:
+    :git: https://github.com/cbess/RichEditorView.git
+    :tag: '4.0'
+
+CHECKOUT OPTIONS:
+  RichEditorView:
+    :git: https://github.com/cbess/RichEditorView.git
+    :tag: '4.0'
 
 SPEC CHECKSUMS:
-  RichEditorView: 1bbb07b87ca2d479ac29a6877014b38b8df233ef
+  RichEditorView: 89d214ab2b434f8e87c96287c1bec7e04ea7f485
 
-PODFILE CHECKSUM: 4b3eaa049791376c636ddb57b5bcd1190cae5b4b
+PODFILE CHECKSUM: 714adda593196c4294c45ef64c9462b23bbd8dbe
 
 COCOAPODS: 1.10.1

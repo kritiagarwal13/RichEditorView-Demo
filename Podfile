@@ -5,7 +5,7 @@ target 'BlogDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
 
 
-	pod "RichEditorView"
+	pod 'RichEditorView', :git => 'https://github.com/cbess/RichEditorView.git', :tag => '4.0'
   use_frameworks!
 
   # Pods for BlogDemo

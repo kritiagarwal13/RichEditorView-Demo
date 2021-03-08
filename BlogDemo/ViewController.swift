@@ -16,7 +16,7 @@ class ViewController: UIViewController, RichEditorToolbarDelegate {
         super.viewDidLoad()
         editor = RichEditorView(frame: self.view.bounds)
         editor?.html = "<h1>My Awesome Editor</h1>Now I am editing in <em>style.</em>"
-        editor?.isEditingEnabled = true
+        editor?.editingEnabled = true
         editor?.bold()
         editor?.italic()
         editor?.setTextColor(.red)
